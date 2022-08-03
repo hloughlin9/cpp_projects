@@ -37,7 +37,7 @@ int main() {
 	std::sort(errors.begin(), errors.end());
 	b0 = errors[0].b0_storage;
 	b1 = errors[0].b1_storage;
-	std::cout << "Optimal End Values: " << "B0 = " << b0 << " " << "B1 = " << b1 << "Error = " << errors[0].error << "\n";
+	std::cout << "Optimal End Values: " << "B0 = " << b0 << " " << "B1 = " << b1 << " " << "Error = " << errors[0].error << "\n";
 	double test;
 	std::cin >> test;
 	double pred = b0 + b1 * test;
